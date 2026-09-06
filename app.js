@@ -389,7 +389,7 @@ Write the overview now, addressing the student directly as "you".`;
 // If you restrict this key by HTTP referrer (Google Cloud Console → Credentials) to your
 // deployed domain, it's reasonably safe to ship embedded in a client-side site like this.
 // Leaving the placeholder below means visitors will be asked to paste their own key instead.
-const GEMINI_API_KEY = "AIzaSyBo1W7PJgLtiMbB9r5nekEZBduZTe9FskE";
+const GEMINI_API_KEY = "AQ.Ab8RN6LgiT-S2R_l07ETCCPpPfRlelsPJunwkbajenqCr-EY5g";
 
 async function callGeminiOverview(apiKey, prompt) {
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${encodeURIComponent(apiKey)}`, {
